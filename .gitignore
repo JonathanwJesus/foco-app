@@ -1,0 +1,11 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+# despejos de memória que a JVM grava quando o Gradle estoura a memória
+*.hprof

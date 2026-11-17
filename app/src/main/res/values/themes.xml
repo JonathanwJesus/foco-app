@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema base da Activity; a aparência real vem do tema do Compose (FocoTheme). -->
+    <style name="Theme.Foco" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/foco_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+# Normaliza as quebras de linha: o Git decide, e os scripts do Gradle mantêm a que o sistema espera.
+* text=auto
+*.bat text eol=crlf
+gradlew text eol=lf
+
+# Arquivos binários
+*.jar binary
+*.png binary
